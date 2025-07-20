@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Quicksand:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://i.imgur.com/jxNmuwM.jpg') repeat;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.invitacion {
+  background: #fff0f5;
+  border: 10px solid #ff9ebc;
+  border-radius: 40px;
+  padding: 30px;
+  text-align: center;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 0 30px rgba(255, 157, 194, 0.5);
+  position: relative;
+}
+
+.rosita-img {
+  width: 160px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 5px solid #ffa4c3;
+  box-shadow: 0 0 15px #ffcae2;
+}
+
+h1 {
+  font-family: 'Mountains of Christmas', serif;
+  font-size: 28px;
+  color: #d81b60;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #b71c50;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 15px;
+  color: #444;
+  margin: 8px 0;
+  font-weight: bold;
+}
+p strong {
+  color: #e91e63; /* Rosa legible */
+  font-weight: bold;
+}
+
+.boton-ws a {
+  display: inline-block;
+  background-color: #f48fb1;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+  box-shadow: 0 5px 15px rgba(244, 143, 177, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.boton-ws a:hover {
+  background-color: #f06292;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #995c6a;
+  font-style: italic;
+}
+
+
+
+
+
