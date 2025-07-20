@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Quicksand:wght@400;700&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -19,12 +21,7 @@ body {
   width: 90%;
   max-width: 420px;
   box-shadow: 0 0 30px rgba(255, 157, 194, 0.5);
-  animation: fadeIn 2s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
+  position: relative;
 }
 
 .rosita-img {
@@ -33,12 +30,6 @@ body {
   border-radius: 50%;
   border: 5px solid #ffa4c3;
   box-shadow: 0 0 15px #ffcae2;
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
 }
 
 h1 {
@@ -62,7 +53,7 @@ p {
 }
 
 p strong {
-  color: #e91e63;
+  color: #e91e63; /* Rosa legible */
   font-weight: bold;
 }
 
@@ -76,19 +67,13 @@ p strong {
   font-weight: bold;
   margin-top: 20px;
   font-size: 16px;
-  box-shadow: 0 0 20px #ff92bb, 0 0 30px #ff92bb;
-  transition: transform 0.3s ease;
-  animation: blink 2s infinite alternate;
+  box-shadow: 0 5px 15px rgba(244, 143, 177, 0.4);
+  transition: transform 0.2s ease;
 }
 
 .boton-ws a:hover {
   background-color: #f06292;
-  transform: scale(1.1);
-}
-
-@keyframes blink {
-  from { box-shadow: 0 0 15px #ff92bb; }
-  to { box-shadow: 0 0 30px #ff5ea0; }
+  transform: scale(1.05);
 }
 
 footer {
@@ -98,9 +83,6 @@ footer {
   font-style: italic;
 }
 
-audio {
-  display: none;
-}
 
 
 
