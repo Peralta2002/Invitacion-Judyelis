@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('https://i.imgur.com/jxNmuwM.jpg') repeat;
+  background: #ffe4ec url(https://png.pngtree.com/background/20250505/original/pngtree-pastel-color-pink-strawberry-background-picture-image_15555183.jpg) repeat;
   font-family: 'Quicksand', sans-serif;
   display: flex;
   justify-content: center;
@@ -30,6 +30,7 @@ body {
   border-radius: 50%;
   border: 5px solid #ffa4c3;
   box-shadow: 0 0 15px #ffcae2;
+  object-fit: cover;
 }
 
 h1 {
@@ -64,11 +65,11 @@ p strong {
   padding: 12px 28px;
   border-radius: 30px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
   margin-top: 20px;
   font-size: 16px;
   box-shadow: 0 5px 15px rgba(244, 143, 177, 0.4);
-  transition: transform 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .boton-ws a:hover {
@@ -82,6 +83,7 @@ footer {
   color: #995c6a;
   font-style: italic;
 }
+
 
 
 
