@@ -22,11 +22,21 @@
     <footer>TE ESPERAMOS. 🍓</footer>
   </div>
 
-  <!-- Música infantil suave -->
-  <audio autoplay loop>
-    <source src="https://cdn.pixabay.com/download/audio/2023/03/25/audio_93e0c24d61.mp3?filename=light-music-for-children-11603.mp3" type="audio/mpeg" />
-    Tu navegador no soporta el audio.
-  </audio>
+ <audio autoplay loop muted id="bg-music">
+  <source src="https://cdn.pixabay.com/download/audio/2023/03/25/audio_93e0c24d61.mp3?filename=light-music-for-children-11603.mp3" type="audio/mpeg" />
+  Tu navegador no soporta el audio.
+</audio>
+
+<script>
+  // Para intentar activar audio aunque esté silenciado por navegador
+  const audio = document.getElementById('bg-music');
+  window.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.muted = false;
+      audio.play();
+    }
+  });
+</script>
 </body>
 </html>
 
